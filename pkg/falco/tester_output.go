@@ -22,7 +22,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 	"github.com/sirupsen/logrus"
 	"go.uber.org/multierr"
 )

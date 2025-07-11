@@ -18,7 +18,7 @@ limitations under the License.
 
 package plugins
 
-import "github.com/falcosecurity/testing/pkg/run"
+import "github.com/max-frank/falco-testing/pkg/run"
 
 var K8SAuditPlugin = run.NewLocalFileAccessor(
 	"libk8saudit.so",

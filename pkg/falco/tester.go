@@ -23,7 +23,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 	"github.com/sirupsen/logrus"
 )
 

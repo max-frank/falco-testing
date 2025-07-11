@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/falcosecurity/testing/pkg/falco"
-	"github.com/falcosecurity/testing/pkg/falcoctl"
-	"github.com/falcosecurity/testing/pkg/run"
-	"github.com/falcosecurity/testing/tests"
-	"github.com/falcosecurity/testing/tests/data/plugins"
+	"github.com/max-frank/falco-testing/pkg/falco"
+	"github.com/max-frank/falco-testing/pkg/falcoctl"
+	"github.com/max-frank/falco-testing/pkg/run"
+	"github.com/max-frank/falco-testing/tests"
+	"github.com/max-frank/falco-testing/tests/data/plugins"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 // WithArgs runs falcoctl with the given arguments.

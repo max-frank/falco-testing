@@ -18,7 +18,7 @@ limitations under the License.
 
 package outputs
 
-import "github.com/falcosecurity/testing/pkg/run"
+import "github.com/max-frank/falco-testing/pkg/run"
 
 var SingleRuleWithCatWriteText = run.NewStringFileAccessor(
 	"single_rule_with_cat_write.txt",

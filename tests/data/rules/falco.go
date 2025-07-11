@@ -19,7 +19,7 @@ limitations under the License.
 package rules
 
 import (
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 var FalcoRules = run.NewLocalFileAccessor(

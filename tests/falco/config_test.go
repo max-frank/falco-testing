@@ -21,11 +21,11 @@ package testfalco
 import (
 	"testing"
 
-	"github.com/falcosecurity/testing/pkg/falco"
-	"github.com/falcosecurity/testing/tests"
-	"github.com/falcosecurity/testing/tests/data/captures"
-	"github.com/falcosecurity/testing/tests/data/configs"
-	"github.com/falcosecurity/testing/tests/data/rules"
+	"github.com/max-frank/falco-testing/pkg/falco"
+	"github.com/max-frank/falco-testing/tests"
+	"github.com/max-frank/falco-testing/tests/data/captures"
+	"github.com/max-frank/falco-testing/tests/data/configs"
+	"github.com/max-frank/falco-testing/tests/data/rules"
 	"github.com/stretchr/testify/assert"
 )
 

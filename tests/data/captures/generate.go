@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/falcosecurity/testing/tests/data"
+	"github.com/max-frank/falco-testing/tests/data"
 )
 
 func die(err error) {

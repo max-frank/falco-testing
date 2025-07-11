@@ -1,4 +1,4 @@
-module github.com/falcosecurity/testing
+module github.com/max-frank/falco-testing
 
 go 1.21
 

@@ -18,7 +18,7 @@ limitations under the License.
 
 package rules
 
-import "github.com/falcosecurity/testing/pkg/run"
+import "github.com/max-frank/falco-testing/pkg/run"
 
 var ExceptionsAppendItemFieldsValuesLenMismatch = run.NewStringFileAccessor(
 	"append_item_fields_values_len_mismatch.yaml",

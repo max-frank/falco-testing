@@ -24,7 +24,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 // PluginConfigInfo represents the info about a single plugin

@@ -1,17 +1,18 @@
 package testdummy
 
 import (
-	"github.com/falcosecurity/testing/pkg/falco"
-	"github.com/falcosecurity/testing/pkg/run"
-	"github.com/falcosecurity/testing/tests"
-	"github.com/falcosecurity/testing/tests/data/plugins"
-	"github.com/falcosecurity/testing/tests/data/rules"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"net/http"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/max-frank/falco-testing/pkg/falco"
+	"github.com/max-frank/falco-testing/pkg/run"
+	"github.com/max-frank/falco-testing/tests"
+	"github.com/max-frank/falco-testing/tests/data/plugins"
+	"github.com/max-frank/falco-testing/tests/data/rules"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func runFalcoWithDummy(t *testing.T, r run.Runner, opts ...falco.TestOption) *falco.TestOutput {

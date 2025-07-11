@@ -23,9 +23,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/falcosecurity/testing/pkg/falco"
-	"github.com/falcosecurity/testing/pkg/falcoctl"
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/falco"
+	"github.com/max-frank/falco-testing/pkg/falcoctl"
+	"github.com/max-frank/falco-testing/pkg/run"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
 )

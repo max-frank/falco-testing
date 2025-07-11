@@ -89,7 +89,7 @@ var genTemplate = template.Must(template.New("getTemplate").Parse(
 package {{ .PackageName }}
 
 import (
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 {{range $idx, $info := .StringFiles}}
 var {{ .VarName }} = run.NewStringFileAccessor(

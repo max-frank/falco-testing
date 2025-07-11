@@ -21,7 +21,7 @@ package falcoctl
 import (
 	"context"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 	"go.uber.org/multierr"
 )
 

@@ -21,7 +21,7 @@ package outputs
 import (
 	_ "embed"
 
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 //go:embed events.txt

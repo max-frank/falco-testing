@@ -19,8 +19,6 @@ limitations under the License.
 package testfalco
 
 import (
-	"github.com/falcosecurity/testing/pkg/run"
-	"github.com/falcosecurity/testing/tests/data/rules"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -28,9 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/falcosecurity/testing/pkg/falco"
-	"github.com/falcosecurity/testing/tests"
-	"github.com/falcosecurity/testing/tests/data/configs"
+	"github.com/max-frank/falco-testing/pkg/run"
+	"github.com/max-frank/falco-testing/tests/data/rules"
+
+	"github.com/max-frank/falco-testing/pkg/falco"
+	"github.com/max-frank/falco-testing/tests"
+	"github.com/max-frank/falco-testing/tests/data/configs"
 
 	"github.com/stretchr/testify/assert"
 )

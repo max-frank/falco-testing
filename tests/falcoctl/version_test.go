@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/falcosecurity/testing/pkg/falcoctl"
-	"github.com/falcosecurity/testing/tests"
+	"github.com/max-frank/falco-testing/pkg/falcoctl"
+	"github.com/max-frank/falco-testing/tests"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"

@@ -19,7 +19,7 @@ limitations under the License.
 package configs
 
 import (
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 var EmptyConfig = run.NewStringFileAccessor("empty_config.yaml", "")

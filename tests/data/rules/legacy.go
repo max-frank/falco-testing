@@ -19,7 +19,7 @@ limitations under the License.
 package rules
 
 import (
-	"github.com/falcosecurity/testing/pkg/run"
+	"github.com/max-frank/falco-testing/pkg/run"
 )
 
 // LegacyFalcoRules_v1_0_1 is a local copy of:
